@@ -119,3 +119,28 @@
 -moz-box-shadow: 1px 1px 29px -2px rgba(0,0,0,0.7);
 box-shadow: 1px 1px 29px -2px rgba(0,0,0,0.7);
 }
+
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.4s;
+}
+
+.btn3:hover{
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.resume{
+    background: linear-gradient(rgba(241, 121, 8, 0.7), rgba(163, 86, 34, 0.884)), url(/files/resume.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
