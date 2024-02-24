@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-brand span{
+    font-size: 3rem;
+    color: orange;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.nav-item{
+    color: black;
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.btn0{
+    height: 38px;
+    width: 130px;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    transition: all 0.4s;
+    background-color:#FAA980;
+}
+
+.btn0:hover{
+    background: orange;
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 38px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 2rem;
+    outline: none;
+    color:orange;
+    border: 1.5px solid orange;
+
+}
+
+.btn1:hover,.btn2:hover{
+    background-color: orange;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+/* =================main section===================== */
+
+.main{
+    background: url(/files/main1.jpg)no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+
+.main input{
+    height: 61px;
+    width: 70%;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+    padding: 15px;
+}
+
+.btn2{
+    height: 60px;
+    width: 25%;
+    background-color:#FAA980 ;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+
+/* =================cat section=================== */
+.red{
+    color: orange;
+}
+
+.cat h1{
+    font-size: 3.5rem;
+
+}
+
+.cat .card:hover{
+    color: orange;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-box-shadow: 1px 1px 29px -2px rgba(0,0,0,0.7);
+-moz-box-shadow: 1px 1px 29px -2px rgba(0,0,0,0.7);
+box-shadow: 1px 1px 29px -2px rgba(0,0,0,0.7);
+}
